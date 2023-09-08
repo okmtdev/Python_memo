@@ -3,6 +3,9 @@ name = "python-memo"
 version = "0.1.0"
 description = ""
 authors = ["okmtdev <yuki.nakajima@revcomm.co.jp>"]
+dependencies = [
+    "pytest-cov~=4.1.0",
+]
 readme = "README.md"
 packages = [{include = "python_memo"}]
 
